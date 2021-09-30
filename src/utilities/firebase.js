@@ -40,4 +40,4 @@ export const useData = (path, transform) => {
 
 export const setData = (path, value) => (
     set(ref(database, path), value)
-  );
+);
