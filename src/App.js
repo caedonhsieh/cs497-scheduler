@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import CourseList from './components/CourseList';
 import { useData } from './utilities/firebase.js';
 import { timeParts } from './utilities/times.js';
